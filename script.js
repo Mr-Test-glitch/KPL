@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <li>Rajib</li>
                         <li>Nayeem</li>
                         <li>Rafi</li>
-                        <li>Saif(junior)</li>
+                        <li>Saif(jr)</li>
                         <li>Saydi</li>
                     </ul>
                 `;
@@ -35,13 +35,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 playersList.classList.add("players-list");
                 playersList.innerHTML = `
                     <ul>
-                        <li>Rana M.</li>
-                        <li>S.R. Sojib</li>
-                        <li>MD. Shawon</li>
-                        <li>Sayem</li>
-                        <li>MD. Ashik</li>
+                        <li>Rana Mahmud</li>
+                        <li>Md Sojib Mia</li>
+                        <li>MD Laden Mia</li>
+                        <li>Md Sayem Mia</li>
+                        <li>MD. Dipu</li>
                         <li>MD. Robin</li>
-                        <li>MD. Sorif</li>
+                        <li>MD. Mishuk Mia</li>
                         <li>MD. Rahim</li>
                     </ul>
                 `;
@@ -61,16 +61,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 playersList.classList.add("players-list");
                 playersList.innerHTML = `
                     <ul>
-                        <li>Tarek</li>
-                        <li>Sazzad</li>
-                        <li>Kazimolla</li>
-                        <li>Mehedi</li>
-                        <li>Kamrul</li>
-                        <li>Tipu</li>
-                        <li>Sujat</li>
-                        <li>Shamim</li>
-                        <li>MD. Dilowar</li>
-                        <li>Himel</li>
+                        <li>Md. Tarek Mia</li>
+                        <li>Sazzad Hossain</li>
+                        <li>Md. Kazimolla</li>
+                        <li>Mehedi Hasan</li>
+                        <li>Kamrul Hasan</li>
+                        <li>Tipu Sultan</li>
+                        <li>Sujat Mia</li>
+                        <li>Shamim Ahmed</li>
+                        <li>MD.Dilowar</li>
+                        <li>Md.Himel</li>
                     </ul>
                 `;
                 teamDiv.appendChild(playersList);
@@ -89,8 +89,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 playersList.classList.add("players-list");
                 playersList.innerHTML = `
                     <ul>
-                        <li>MD Sumon</li>
                         <li>M.H. Opi</li>
+                        <li>Md.Sumon(jr)</li>
                         <li>Arijit Singh</li>
                         <li>F. Rabbi</li>
                         <li>MD. Torikul</li>
@@ -116,13 +116,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 playersList.classList.add("players-list");
                 playersList.innerHTML = `
                     <ul>
-                        <li>Afif</li>
+                        <li>Mustakim</li>
                         <li>Tomal</li>
                         <li>Shah Alom</li>
                         <li>Bijoy</li>
                         <li>Mursalin</li>
                         <li>Azaharul</li>
-                        <li>Sunny</li>
+                        <li>Shorif Mia</li>
                         <li>Onik</li>
                     </ul>
                 `;
@@ -142,14 +142,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 playersList.classList.add("players-list");
                 playersList.innerHTML = `
                     <ul>
-                        <li>MD. Anis</li>
-                        <li>Tamim</li>
-                        <li>K. Babu</li>
+                        <li>Azad Hossain</li>
+                        <li>Kawsar Mia</li>
+                        <li>Md. Robiul</li>
                         <li>Safayet</li>
-                        <li>Siam</li>
-                        <li>TT Tanvir</li>
-                        <li>Robiul</li>
-                        <li>Rahul</li>
+                        <li>Md.Siam</li>
+                        <li>TanvirMi</li>
+                        <li>Md.Anis</li>
+                        <li>Md.Rahul</li>
                     </ul>
                 `;
                 teamDiv.appendChild(playersList);
@@ -168,13 +168,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 playersList.classList.add("players-list");
                 playersList.innerHTML = `
                     <ul>
-                        <li>M. Murad</li>
-                        <li>T. Rejuan</li>
-                        <li>Nibir</li>
-                        <li>Sultan</li>
-                        <li>Hazi</li>
-                        <li>Akash</li>
-                        <li>Arafat</li>
+                        <li>Murad Mia</li>
+                        <li>Md.Rejuan</li>
+                        <li>Md.Nibir</li>
+                        <li>Nasir Hossain</li>
+                        <li>Md.Momen</li>
+                        <li>Md.Akash</li>
+                        <li>Md.Arafat</li>
                         <li>M.S. Mazharul</li>
                     </ul>
                 `;
