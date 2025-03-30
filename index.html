@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumarikona Premier League (KPL)</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                padding: 0;
+            }
+
+            .nav-links li {
+                margin: 5px 0;
+            }
+
+            .teams-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .team {
+                width: 45%;
+                margin: 5px;
+                text-align: center;
+            }
+
+            table {
+                width: 100%;
+                font-size: 14px;
+            }
+
+            th,
+            td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-left">
+                <img src="pics/logo.jpg" alt="KPL Logo" class="logo">
+                <h1>Kumarikona Premier League - KPL</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#teams">Teams</a></li>
+                <li><a href="#fixtures">Fixtures</a></li>
+                <li><a href="#points-table">Points Table</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="teams">
+        <h2>Teams</h2>
+        <div class="teams-container">
+            <div class="team">
+                <img src="pics/TRS.jpeg" alt="The Run Seekers Logo">
+                <p>The Run Seekers</p>
+                <button class="show-players1">Show Players</button>
+            </div>
+            <div class="team">
+                <img src="pics/TD.jpeg" alt="The Dominators Logo">
+                <p>The Dominators</p>
+                <button class="show-players2">Show Players</button>
+            </div>
+            <div class="team">
+                <img src="pics/SF.jpeg" alt="Senior Fighters Logo">
+                <p>Senior Fighters</p>
+                <button class="show-players3">Show Players</button>
+            </div>
+            <div class="team">
+                <img src="pics/RJ.jpeg" alt="Roaring Jaguar Logo">
+                <p>Roaring Jaguar</p>
+                <button class="show-players4">Show Players</button>
+            </div>
+            <div class="team">
+                <img src="pics/DF.jpeg" alt="Deccan Fighters Logo">
+                <p>Deccan Falcons</p>
+                <button class="show-players5">Show Players</button>
+            </div>
+            <div class="team">
+                <img src="pics/DE.jpeg" alt="Desert Eagles Logo">
+                <p>Desert Eagles</p>
+                <button class="show-players6">Show Players</button>
+            </div>
+            <div class="team">
+                <img src="pics/FF.jpeg" alt="Fearless Fighters Logo">
+                <p>Fearless Fighters</p>
+                <button class="show-players7">Show Players</button>
+            </div>
+        </div>
+    </section>
+    <section id="fixtures">
+        <h2>Fixtures</h2>
+        <div class="match">
+            <img src="pics/m1.jpeg" alt="Match 1 Poster">
+            <p class="umpire-name">Umpires: Rana Mahmud, TH Azad</p>
+        </div>
+        <div class="match">
+            <img src="pics/m2.jpg" alt="Match 1 Poster">
+            <p class="umpire-name">Umpires: Tomal, Opi</p>
+        </div>
+        <div class="match">
+            <img src="pics/m3.jpeg" alt="Match 2 Poster">
+            <p class="umpire-name">Umpires: Rana Mahmud, Rabbi</p>
+        </div>
+        <div class="match">
+            <img src="pics/m4.jpeg" alt="Match 3 Poster">
+            <p class="umpire-name">Umpires: Murad, Kawser</p>
+        </div>
+        <div class="match">
+            <img src="pics/m5.jpeg" alt="Match 4 Poster">
+            <p class="umpire-name">Umpires: Azad, Tomal</p>
+        </div>
+        <div class="match">
+            <img src="pics/m6.jpeg" alt="Match 5 Poster">
+            <p class="umpire-name">Umpires: Rabbi, Murad</p>
+        </div>
+        <div class="match">
+            <img src="pics/m7.jpeg" alt="Match 6 Poster">
+            <p class="umpire-name">Umpires: Rana Mahmud, Joj</p>
+        </div>
+    </section>
+    
+
+    <section id="points-table">
+        <h2>Points Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Team</th>
+                    <th>P</th>
+                    <th>W</th>
+                    <th>L</th>
+                    <th>P</th>
+                    <th>NRR</th> 
+                </tr>
+            </thead>
+            <tbody id="points-body">
+                <tr>
+                    <td>Senior Fighters</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0.00</td> 
+                </tr>
+                <tr>
+                    <td>The Dominators</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0.00</td>
+                </tr>
+                <tr>
+                    <td>The Run Seekers</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0.00</td>
+                </tr>
+                <tr>
+                    <td>Roaring Jaguar</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0.00</td>
+                </tr>
+                <tr>
+                    <td>Deccan Fighters</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0.00</td>
+                </tr>
+                <tr>
+                    <td>Desert Eagles</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0.00</td>
+                </tr>
+                <tr>
+                    <td>Fearless Fighters</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About KPL</h3>
+                <p>The Kumarikhona Premier League (KPL) is an exciting tournament featuring top cricket teams battling
+                    for supremacy.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#teams">Teams</a></li>
+                    <li><a href="#fixtures">Fixtures</a></li>
+                    <li><a href="#points-table">Points Table</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: contact@kpl.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Kumarikhona Premier League. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
